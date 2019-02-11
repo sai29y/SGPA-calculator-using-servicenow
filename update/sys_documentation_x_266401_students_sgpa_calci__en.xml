@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="sgpa calculator table" language="en" table="x_266401_students_sgpa_calci">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>sgpa calculator table</label>
+            <language>en</language>
+            <name>x_266401_students_sgpa_calci</name>
+            <plural>sgpa calculator tables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-11 09:19:08</sys_created_on>
+            <sys_id>77aefcf9dbaf2300028687423996199a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>sgpa calculator table</sys_name>
+            <sys_package display_value="sgpa" source="x_266401_students">1dc61cfddb2f23000286874239961934</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sgpa">1dc61cfddb2f23000286874239961934</sys_scope>
+            <sys_update_name>sys_documentation_x_266401_students_sgpa_calci__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-11 15:55:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

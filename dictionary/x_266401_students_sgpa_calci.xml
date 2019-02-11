@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="sgpa calculator table" max_length="40" name="x_266401_students_sgpa_calci" type="collection">
+        <element choice="1" label="CLOUD COMPUTING" mandatory="true" max_length="40" name="cc" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="O" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="A+" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="A" sequence="2" value="8"/>
+                <element inactive_on_update="false" label="B+" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="B" sequence="4" value="6"/>
+                <element inactive_on_update="false" label="C" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="P" sequence="6" value="4"/>
+                <element inactive_on_update="false" label="F" sequence="7" value="0"/>
+            </choice>
+        </element>
+        <element choice="1" label="CLOUD SECURITY" mandatory="true" max_length="40" name="cs" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="O" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="A+" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="A" sequence="2" value="8"/>
+                <element inactive_on_update="false" label="B+" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="B" sequence="4" value="6"/>
+                <element inactive_on_update="false" label="C" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="P" sequence="6" value="4"/>
+                <element inactive_on_update="false" label="F" sequence="7" value="0"/>
+            </choice>
+        </element>
+        <element choice="1" label="HIGH PERFORMANCE COMPUTING" mandatory="true" max_length="40" name="hpc" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="O" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="A+" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="A" sequence="2" value="8"/>
+                <element inactive_on_update="false" label="B+" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="B" sequence="4" value="6"/>
+                <element inactive_on_update="false" label="C" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="P" sequence="6" value="4"/>
+                <element inactive_on_update="false" label="F" sequence="7" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="15003" label="ENTER YOUR ID NUMBER" mandatory="true" max_length="40" name="id" type="string"/>
+        <element choice="1" label="MINOR PROJECT" mandatory="true" max_length="40" name="mp" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="O" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="A+" sequence="1" value="9"/>
+                <element inactive_on_update="false" label="A" sequence="2" value="8"/>
+                <element inactive_on_update="false" label="B+" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="B" sequence="4" value="6"/>
+                <element inactive_on_update="false" label="C" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="P" sequence="6" value="4"/>
+                <element inactive_on_update="false" label="F" sequence="7" value="0"/>
+            </choice>
+        </element>
+        <element label="SGPA" max_length="40" name="sgpa" read_only="true" type="float"/>
+    </element>
+</database>

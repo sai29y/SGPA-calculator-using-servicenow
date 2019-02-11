@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="id" label="ENTER YOUR ID NUMBER" language="en" table="x_266401_students_sgpa_calci">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <help/>
+            <hint/>
+            <label>ENTER YOUR ID NUMBER</label>
+            <language>en</language>
+            <name>x_266401_students_sgpa_calci</name>
+            <plural>ENTER YOUR ID NUMBERs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-11 09:50:41</sys_created_on>
+            <sys_id>f1e58931dbef230002868742399619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ENTER YOUR ID NUMBER</sys_name>
+            <sys_package display_value="sgpa" source="x_266401_students">1dc61cfddb2f23000286874239961934</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sgpa">1dc61cfddb2f23000286874239961934</sys_scope>
+            <sys_update_name>sys_documentation_x_266401_students_sgpa_calci_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-11 09:50:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

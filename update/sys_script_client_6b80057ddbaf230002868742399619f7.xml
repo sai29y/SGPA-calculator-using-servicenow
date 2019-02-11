@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>cc</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SGPA </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	var ide = parseInt(g_form.getValue('id').length);
+    var a = parseInt(g_form.getValue('mp'));
+	var b = parseInt(g_form.getValue('cc'));
+	var c = parseInt(g_form.getValue('cs'));
+	var d = parseInt(g_form.getValue('hpc'));
+	var e;
+	if(ide != 9)
+		{
+			g_form.addErrorMessage("enter the correct id number");
+			g_form.abort();
+			
+		}
+	e = parseFloat(((a*6)+(b*3)+(c*3)+(d*3))/15);
+	alert("your sgpa for this sem is  "+e);
+	g_form.setValue('sgpa',e,e);
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-11 09:30:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b80057ddbaf230002868742399619f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SGPA </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sgpa" source="x_266401_students">1dc61cfddb2f23000286874239961934</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sgpa">1dc61cfddb2f23000286874239961934</sys_scope>
+        <sys_update_name>sys_script_client_6b80057ddbaf230002868742399619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-11 10:16:36</sys_updated_on>
+        <table>x_266401_students_sgpa_calci</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
